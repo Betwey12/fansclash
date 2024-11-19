@@ -25,5 +25,9 @@
       "TITLE": "Solution",
       "DESCRIPTION": "At OpenCrypt, we’ve eliminated the clutter and focused on what truly matters—speed and simplicity. Our streamlined platform is designed to make trading fast, intuitive, and hassle-free, allowing you to execute transactions with ease and without delays. We know your time is valuable, so we’ve built OpenCrypt to help you make the most of it in the crypto world."
     }
+  },
+  "TOAST": {
+      "SUCCESS": "Thank you, you are now in the waitlist",
+      "ERROR": "Oops! something went wrong"
   }
 }

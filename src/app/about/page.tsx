@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 
 export default function AboutPage() {
   const { t, about } = useAbout();
+
   return (
     <section className="flex items-center justify-center p-4 flex-1 min-h-screen">
       <main className="container flex flex-col gap-8 items-center justify-center py-10 lg:py-20">

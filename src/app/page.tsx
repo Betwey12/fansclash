@@ -3,32 +3,20 @@ import googleButton from "@/assets/images/google-play.webp";
 import appleButton from "@/assets/images/app-store.webp";
 import Image from "next/image";
 import Link from "next/link";
+import WaitListForm from "../components/home/waitlist-form";
 
 export default function Home() {
   const { t, actions } = useWaitlist();
+
   return (
-    <section className="flex items-center justify-center p-4 flex-1 min-h-screen">
+    <section className="relative flex items-center justify-center p-4 flex-1 min-h-screen">
       <main className="flex flex-col gap-8 items-center justify-center max-w-2xl">
         <h1 className="text-5xl lg:text-6xl font-medium text-center dark:text-white leading-[3.5rem]">
           {t("TITLE")}
         </h1>
         <p className="text-center">{t("DESCRIPTION")}</p>
 
-        <form>
-          <fieldset className="flex flex-col lg:flex-row justify-center gap-4">
-            <input
-              type="email"
-              placeholder={`✉️  ${t("PLACEHOLDER")}`}
-              className="min-w-80 font-medium bg-background border border-foreground p-4 outline-none focus:outline-gray-500"
-            />
-            <button
-              type="submit"
-              className="bg-foreground text-background p-4 font-medium"
-            >
-              {t("ACTION")}
-            </button>
-          </fieldset>
-        </form>
+        <WaitListForm />
 
         <div>
           <p className="text-center text-sm">{t("ACTIONS.TITLE")}</p>
