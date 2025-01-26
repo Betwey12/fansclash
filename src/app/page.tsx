@@ -1,6 +1,4 @@
 import { useTranslations } from "next-intl";
-import googleButton from "@/assets/images/google-play.webp";
-import appleButton from "@/assets/images/app-store.webp";
 import Image from "next/image";
 import Link from "next/link";
 import WaitListForm from "../components/home/waitlist-form";
@@ -33,7 +31,7 @@ export default function Home() {
                   alt="action"
                   width="135"
                   height="40"
-                  className="w-full h-full"
+                  className="w-[135px] h-[40px]"
                 />
               </Link>
             ))}
@@ -49,12 +47,12 @@ function useWaitlist() {
   const actions = [
     {
       href: "#",
-      image: googleButton,
+      image: "/images/google-play.webp",
       title: "google",
     },
     {
       href: "#",
-      image: appleButton,
+      image: "/images/app-store.webp",
       title: "apple",
     },
   ];
