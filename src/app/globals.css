@@ -80,6 +80,6 @@
   }
 
   .dark .gradient-bg {
-    background: var(--background);
+    background: hsl(var(--background));
   }
 }
