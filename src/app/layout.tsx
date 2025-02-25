@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import localFont from "next/font/local";
 
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
@@ -18,8 +19,21 @@ export const metadata: Metadata = {
 };
 
 const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
   weight: ["400", "500", "700", "900"],
+});
+
+const pepsi = localFont({
+  src: [
+    {
+      path: "./fonts/PEPSI_pl.ttf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-pepsi",
+  display: "swap",
 });
 
 export default async function RootLayout({
@@ -32,7 +46,9 @@ export default async function RootLayout({
   const messages = await getMessages();
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={`${poppins.className} antialiased`}>
+      <body
+        className={`${poppins.variable} ${pepsi.variable} gradient-bg antialiased`}
+      >
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
             attribute="class"

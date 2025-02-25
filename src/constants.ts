@@ -7,10 +7,10 @@ export const socialLinks = {
 
 export const metaData = {
   home: {
-    title: "Cowries - Buy, sell and swap crypto with ease",
+    title: "Fansclash - Play, analyse and compete with ease.",
     description:
-      "Cowries is a platform that allows you to buy, sell and swap cryptocurrencies with ease. We offer the best rates and a seamless experience.",
+      "Seamlessly Play, Predict Live Match Outcomes, Compete with Friends, and Experience the Ultimate Fantasy Football Adventure.",
     keywords:
-      "cryptocurrency, buy, sell, swap, bitcoin, ethereum, litecoin, dogecoin, cowries",
+      "Fantasy Football, Fansclash, Fansclash Fantasy Football, Fansclash Football, Fansclash App, Fansclash Fantasy Football App, Fansclash Football App, Fansclash Play, Fansclash Compete, Fansclash Predict, Fansclash Analyse, Fansclash Live Match, Fansclash Live Match Prediction, Fansclash Live Match Predictions, Fansclash Live Match Predictions App, Fansclash Live Match Predictions Application, Fansclash Live Match Predictions Mobile App, Fansclash Live Match Predictions Mobile Application, Fansclash Live Match Predictions Web App",
   },
 };

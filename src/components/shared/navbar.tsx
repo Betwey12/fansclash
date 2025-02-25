@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { DayIcon, NightIcon } from "../icons";
+import Logo from "./logo";
 
 export default function Navbar() {
   const { setTheme } = useTheme();
@@ -11,9 +12,7 @@ export default function Navbar() {
   return (
     <header className="flex items-center justify-center px-4 lg:px-8">
       <div className="container flex items-center justify-between py-4 lg:py-6">
-        <Link href="/" className="font-bold">
-          cowrys
-        </Link>
+        <Logo />
         <nav className="flex items-center gap-4">
           <ul>
             <li>

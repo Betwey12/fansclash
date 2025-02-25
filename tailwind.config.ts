@@ -9,6 +9,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        pepsi: ["var(--font-pepsi)", "sans"],
+        poppins: ["var(--font-poppins)", "sans"],
+      },
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
@@ -39,6 +43,12 @@ export default {
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
+        },
+        red: {
+          DEFAULT: "hsl(var(--red))",
+        },
+        dark: {
+          DEFAULT: "hsl(var(--dark))",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

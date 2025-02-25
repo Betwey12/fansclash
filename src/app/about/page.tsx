@@ -18,7 +18,7 @@ export default function AboutPage() {
               className="border border-gray-50 dark:border-gray-500 rounded p-4 lg:p-6 shadow"
               key={about.title}
             >
-              <div className="w-16 h-16 border-gray-50 shadow border dark:bg-foreground rounded-full flex items-center justify-center text-[#8954ff]">
+              <div className="w-16 h-16 border-gray-50 shadow border dark:bg-foreground rounded-full flex items-center justify-center text-red">
                 {about.icon}
               </div>
               <h2 className="text-lg font-medium mt-6">{about.title}</h2>

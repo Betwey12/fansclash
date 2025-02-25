@@ -3,28 +3,26 @@
     "ABOUT": "About"
   },
   "MAIN": {
-    "TITLE": "Buy, sell and swap crypto with ease",
-    "DESCRIPTION": "Seamlessly trade, buy, and sell your favorite cryptocurrencies on a platform designed for both beginners and seasoned traders",
-    "PLACEHOLDER": "Enter your email address.....",
+    "TITLE": "Play, analyse and compete with ease.",
+    "DESCRIPTION": "Seamlessly Play, Predict Live Match Outcomes, Compete with Friends, and Experience the Ultimate Fantasy Football Adventure.",
+    "PLACEHOLDER": "✉️  Enter your email",
     "ACTION": "Get early access",
-    "ACTIONS": {
-      "TITLE": "Coming Soon on iOS and Android"
-    }
+    "SUBTITLE": "Coming soon on iOS and android"
   },
   "FOOTER": {
-    "COPYRIGHT": "© 2020 cowrys. All rights reserved."
+    "COPYRIGHT": "© 2025 fansclash . All rights reserved."
   },
   "ABOUT": {
-    "TITLE": "Who we are",
-    "DESCRIPTION": "Welcome to cowrys, where speed meets simplicity in crypto trading. We’re here to help you buy, sell, and trade digital assets faster than ever. No more waiting around—just quick, seamless transactions that keep you ahead of the game. \n Whether you’re a pro or just getting started cowrys is your fast track to the future of finance. Let’s accelerate your crypto journey together.",
-    "PROBLEM": {
-      "TITLE": "Problem",
-      "DESCRIPTION": "Most crypto exchanges, in their rush to add features, have lost sight of simplicity and speed. Bogged down by cluttered interfaces and unnecessary options, they turn basic transactions into a frustrating ordeal. For users looking to quickly exchange assets, these bloated platforms are more of a hindrance than a help."
-    },
-    "SOLUTION": {
-      "TITLE": "Solution",
-      "DESCRIPTION": "At cowrys, we’ve eliminated the clutter and focused on what truly matters—speed and simplicity. Our streamlined platform is designed to make trading fast, intuitive, and hassle-free, allowing you to execute transactions with ease and without delays. We know your time is valuable, so we’ve built cowrys to help you make the most of it in the crypto world."
-    }
+      "TITLE": "About Fansclash",
+  "DESCRIPTION": "Welcome to Fansclash, where strategy meets speed in fantasy football. We’re here to help you draft, trade, and manage your team with ease—no more clunky interfaces or confusing menus. Just quick, seamless decisions that keep you ahead of the competition. \n Whether you’re a seasoned manager or a first-time player, Fansclash is your fast track to fantasy football glory. Let’s take your game to the next level.",
+  "PROBLEM": {
+    "TITLE": "Problem",
+    "DESCRIPTION": "Most fantasy football platforms overcomplicate the experience with cluttered dashboards, slow updates, and overwhelming stats. Instead of focusing on the thrill of the game, managers get lost in a maze of unnecessary features, making it harder to stay competitive and enjoy the season."
+  },
+  "SOLUTION": {
+    "TITLE": "Solution",
+    "DESCRIPTION": "At Fansclash, we’ve stripped away the clutter and put the focus back on what matters—speed and strategy. Our intuitive platform lets you make trades, set lineups, and track player stats effortlessly, ensuring you stay ahead of the game. We know every second counts, so we’ve built Fansclash to keep you winning, without the hassle."
+  }
   },
   "TOAST": {
       "SUCCESS": "Thank you, you are now in the waitlist",
