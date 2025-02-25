@@ -26,7 +26,7 @@ export default function Footer() {
             </ul>
           </nav>{" "}
         </div>{" "}
-        <div className="w-full h-[1px] bg-gray-400 my-6" />
+        <div className="w-full h-[1px] border-gradient my-6" />
         <p className="text-center text-sm">{t("COPYRIGHT")}</p>
       </div>
     </footer>

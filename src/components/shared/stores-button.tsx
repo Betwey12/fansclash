@@ -5,12 +5,12 @@ import { Button } from "../ui/button";
 export default function StoresButton() {
   const { stores } = useStores();
   return (
-    <div className="grid grid-cols-2 grid-rows-1 gap-4 mt-4">
+    <div className="grid grid-cols-2 justify-center grid-rows-1 gap-4 mt-4">
       {stores.map(({ title, href, src }) => (
         <Button
           key={title}
           asChild
-          className="bg-dark rounded-lg py-3 w-[211px] px-4 justify-start hover:bg-dark/80 border border-border"
+          className="bg-dark rounded-lg py-3 max-w-[211px] px-4 justify-start hover:bg-dark/80 border border-border"
         >
           <Link href={href}>
             <Image

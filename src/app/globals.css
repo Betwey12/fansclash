@@ -82,4 +82,20 @@
   .dark .gradient-bg {
     background: hsl(var(--background));
   }
+
+  .border-gradient {
+    background: linear-gradient(
+      90deg,
+      rgba(164, 0, 0, 0.24) -6.95%,
+      rgba(62, 0, 0, 0.0624) 49.62%
+    );
+  }
+
+  .dark .border-gradient {
+    background: linear-gradient(
+      90deg,
+      rgba(164, 0, 0, 0.24) -6.95%,
+      rgba(240, 242, 245, 0.24) 49.62%
+    );
+  }
 }

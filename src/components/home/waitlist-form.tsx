@@ -43,19 +43,19 @@ export default function WaitListForm() {
 
       <form ref={formRef} onSubmit={handleSubmit} className="w-full max-w-xl">
         <fieldset className="flex flex-col lg:flex-row justify-center gap-4">
-          <div className="relative w-full flex items-center justify-center">
+          <div className="relative w-full flex flex-col lg:flex-col gap-4 items-center justify-center">
             <input
               name="email"
               type="email"
               placeholder={t("PLACEHOLDER")}
-              className="w-full min-w-80 font-medium bg-background border border-input rounded-full p-4  py-4 outline-none focus:outline-gray-500"
+              className="w-full min-w-80 font-medium bg-background border border-input rounded-lg lg:rounded-full p-4  py-4 outline-none focus:outline-gray-500"
               onChange={(e) => setEmail(e.target.value)}
             />
             <Button
               type="submit"
               disabled={!email}
               title={!email ? "please enter your email" : ""}
-              className="absolute right-1 bg-red hover:bg-red/80 text-white p-4 font-medium disabled:cursor-not-allowed rounded-full px-9"
+              className="w-full lg:w-auto rounded-lg lg:absolute right-1 bg-red hover:bg-red/80 text-white p-4 font-medium disabled:cursor-not-allowed lg:rounded-full lg:px-9"
             >
               <span>{t("ACTION")}</span>{" "}
               {isLoading && (
